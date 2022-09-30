@@ -1,0 +1,4 @@
+A. En una especialización, la entidad padre no modela datos que realmente existan, sino que sirve para representar los aspectos comunes de las entidades hijas.  // FALSO, esa es la definición de generalización
+B. En una agregación, la cardinalidad mínima debe ser mayor a uno en ambos lados // FALSO, la cardinalidad mínima puede ser 0. La cardinalidad máxima para cada entidad de la relación(el cuadrado) debe ser N.
+C. Una entidad puede no tener un atributo identificador en el modelo ER. FALSO //Es necesario para poder identificar una entidad dentro del conjunto de entidades
+D. No es correcto modelar atributos en las relaciones en un modelo ER FALSO // No hay conflictos en modelar atributos en relaciones, mientras no sean atributos que serian identificador
